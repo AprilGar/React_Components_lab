@@ -22,7 +22,15 @@ function App() {
       </figure>
 
       {/* SEARCH BAR GOES HERE */}
+      const searchBar = ()=> {
+        <input 
+        type={text}
+        placeholder="Enter a keyword to search for..."
+        />
+        <button type='submit'>search</button>
+      };
 
+              
         <h2>Recipes</h2>
 
         {/* const cakes=[
