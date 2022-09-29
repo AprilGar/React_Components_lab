@@ -22,13 +22,13 @@ function App() {
       </figure>
 
       {/* SEARCH BAR GOES HERE */}
-      const searchBar = ()=> {
+      {/* const searchBar = ()=> {
         <input 
         type={text}
         placeholder="Enter a keyword to search for..."
         />
         <button type='submit'>search</button>
-      };
+      }; */}
 
               
         <h2>Recipes</h2>
@@ -64,6 +64,7 @@ function App() {
           ]; */}
 
           {/* Average rating of all cakes goes here */}
+          {/* Will need to map through all the ratings within the nested array, add together and then divide by number of objects within the array */}
 
       {/* NEW RECIPE FORM GOES HERE */}
 
