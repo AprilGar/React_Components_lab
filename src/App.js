@@ -4,42 +4,61 @@ import './App.css';
 function App() {
   return (
     <div>
+
+    <header>
+      <nav>
+        <a href='#'>About us</a>
+        <a href='#'>Recipes</a>
+        <a href='#'>Gallery</a>
+        <a href='#'>Testimonials</a>
+      </nav>
+    </header>
+
       <h1>Welcome to the bakery!</h1>
 
-      <section className="recipes">
+      {/* HERO IMAGE GOES HERE */}
+      <figure className='hero_image'>
+        <img src='./carrot_cake.jpeg'></img>
+      </figure>
+
+      {/* SEARCH BAR GOES HERE */}
+
         <h2>Recipes</h2>
 
-        <div>
-          cakes = [
+        {/* const cakes=[
             {
-              cakeName: "Lemon Drizzle",
+            cakeName: "Lemon Drizzle",
+              // image will go here 
               ingredients: ["eggs", "butter", "lemon  zest", "sugar", "self-raising flour"],
               rating: 5
-            },
+              },
             
             {
-              cakeName: "Tea Loaf",
+            cakeName: "Tea Loaf",
+              // image will go here 
               ingredients: ["eggs", "oil", "dried fruit", "sugar", "self-raising flour", "strong tea"],
               rating: 3
-            },
+              },
     
             {
-              cakeName: "Brownie",
+            cakeName: "Brownie",
+              // image will go here 
               ingredients: ["chocolate", "eggs", "flour", "butter", "walnuts"],
               rating: 4
-            },
+              },
     
             {
-              cakeName: "Carrot Cake",
+            cakeName: "Carrot Cake",
+              // image will go here 
               ingredients: ["carrots", "walnuts", "oil", "cream cheese", "flour", "sugar"],
               rating: 5
-            }
-          ]
+              }
+          ]; */}
 
           {/* Average rating of all cakes goes here */}
 
-        </div>
-      </section>
+      {/* NEW RECIPE FORM GOES HERE */}
+
     </div>
   );
 }
